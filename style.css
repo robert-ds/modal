@@ -22,3 +22,35 @@ button {
   color: #f9f9f9;
   cursor: pointer;
 }
+
+/* Keyframe section */
+
+@keyframes background-in {
+
+  0% {
+    scale: 0 0.005;
+  }
+
+  33% {
+    scale: 1 0.005;
+  }
+
+  66%, 100% {
+    scale: 1 1;
+  }
+
+}
+
+@keyframes modal-in {
+  0%, 66% {
+    opacity: 0;
+    visibility: hidden;
+    translate: -50% -30%;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+}
