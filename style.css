@@ -11,14 +11,14 @@ html, body {
 body {
   display: grid;
   place-items: center;
-  background: #675c7c;
+  background: #aa89e9;
 }
 
 button {
   border: 0;
   border-radius: 8px;
   padding: 20px 36px;
-  background: #535353;
+  background: #a53232;
   color: #f9f9f9;
   cursor: pointer;
 }
@@ -65,6 +65,8 @@ button {
   display: grid;
   place-items: center;
   background: rgba(0,0,0,.5);
+  opacity: 0;
+  visibility: hidden;
   transition: .5s;
 }
 
@@ -82,7 +84,7 @@ body.open .modal-background {
   width: 300px;
   padding: 48px 40px;
   border-radius: 12px;
-  background: #37353b;
+  background: #805fc4;
   color: #f9f9f9;
   opacity: 0;
   visibility: hidden;
