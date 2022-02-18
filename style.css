@@ -88,3 +88,15 @@ body.open .modal-background {
   visibility: hidden;
   transition: .5s;
 }
+
+body.open .modal {
+  opacity: 1;
+  visibility: visible;
+  animation: modal-in 1s;
+}
+
+body.closed .modal {
+  opacity: 0;
+  visibility: hidden;
+  translate: -50% -50%;
+}
