@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: #675c7c;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 20px 36px;
+  background: #535353;
+  color: #f9f9f9;
+  cursor: pointer;
+}
