@@ -80,7 +80,7 @@ body.open .modal-background {
   position: fixed;
   top: 50%;
   left: 50%;
-  translate: -50% -50%;
+  translate: -50% -37%;
   width: 300px;
   padding: 48px 40px;
   border-radius: 12px;
