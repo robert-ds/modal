@@ -1,4 +1,5 @@
 # Modal
-Web modal app
 
-<img src="modal.png" alt="Modal Image" />
+Waeb modal app
+
+<img src="modal.gif" alt="Modal Image" />
